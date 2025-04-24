@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -10,7 +9,7 @@ const FormWindow = () => {
     <div className="min-h-screen bg-gray-100 p-8">
       <Card className="w-full max-w-4xl mx-auto shadow-lg border-2">
         <div className="bg-[#0078D4] p-2 flex items-center">
-          <div className="text-white font-semibold">Algorithm Demonstration</div>
+          <div className="text-white font-semibold">Курсова работа</div>
           <div className="ml-auto flex gap-2">
             <button className="w-6 h-6 bg-gray-100 hover:bg-gray-200 rounded-sm text-gray-600 flex items-center justify-center text-sm">
               -
