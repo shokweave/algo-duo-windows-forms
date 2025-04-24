@@ -22,9 +22,6 @@ const Dashboard = () => {
         </div>
         <Card className="p-6">
           <h2 className="text-xl font-semibold mb-4">Welcome, Admin!</h2>
-          <p className="text-gray-600">
-            You have successfully logged in to the dashboard. This is your secure area.
-          </p>
         </Card>
       </div>
     </div>
