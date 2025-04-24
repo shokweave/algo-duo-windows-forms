@@ -23,15 +23,15 @@ const FormWindow = () => {
             </button>
           </div>
         </div>
-        <Tabs defaultValue="bubble-sort" className="p-4">
+        <Tabs defaultValue="sorting-algorithm" className="p-4">
           <TabsList className="w-full">
-            <TabsTrigger value="bubble-sort" className="flex-1">Bubble Sort</TabsTrigger>
-            <TabsTrigger value="binary-search" className="flex-1">Binary Search</TabsTrigger>
+            <TabsTrigger value="sorting-algorithm" className="flex-1">Sorting Algorithm</TabsTrigger>
+            <TabsTrigger value="search-algorithm" className="flex-1">Search Algorithm</TabsTrigger>
           </TabsList>
-          <TabsContent value="bubble-sort">
+          <TabsContent value="sorting-algorithm">
             <BubbleSortDemo />
           </TabsContent>
-          <TabsContent value="binary-search">
+          <TabsContent value="search-algorithm">
             <BinarySearchDemo />
           </TabsContent>
         </Tabs>
